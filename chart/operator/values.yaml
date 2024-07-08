@@ -32,7 +32,7 @@ controllerManager:
         drop:
         - ALL
     image:
-      repository: gcr.io/kubebuilder/kube-rbac-proxy
+      repository: registry.cn-hangzhou.aliyuncs.com/testwydimage/gcr.io.kubebuilder.kube-rbac-proxy
       tag: v0.16.0
     resources:
       limits:
@@ -49,7 +49,7 @@ controllerManager:
         drop:
         - ALL
     image:
-      repository: ghcr.io/k8sgpt-ai/k8sgpt-operator
+      repository: registry.cn-hangzhou.aliyuncs.com/testwydimage/ghcr.io.k8sgpt-ai.k8sgpt-operator
       tag: v0.1.6  # x-release-please-version
     resources:
       limits:
